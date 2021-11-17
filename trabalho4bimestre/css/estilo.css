@@ -1,0 +1,58 @@
+html{
+	scroll-behavior: smooth;
+}
+.naoentra {
+	margin-top: 4%;
+}
+.gradiente{
+	background-image: linear-gradient(to right, #008080,#00FFFF );
+}
+#sobre{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.ano{
+	background-image: linear-gradient(to right, #008080,#00FFFF );
+	border-radius: 50%;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 700;
+	margin-bottom: 2vh;
+}
+.fundo-imagem{
+	background-image: url(../img/cont.gif);
+	width: 100%;
+	height: auto;
+}
+.cor{
+	text-align: center;
+	color: #00CED1;
+	margin-top: 10px;
+}
+.counts{
+	padding: 1% 0;
+}
+.counts .count-box{
+	width: 100%;
+	text-align: center;
+}
+
+.counts .count-box span{
+	font-size: 48px;
+	color: white;
+	line-height: 48px;
+	display: block;
+	font-weight: 700;
+	margin-left: 80px;
+	margin: auto;
+}
+.counts .count-box p{
+	padding: 2px 0 0 0;
+	font-weight: 600;
+	font-size: 1.5rem;
+	color: #00CED1;
+	text-shadow: 0.1em 0.1em #fff;
+}
